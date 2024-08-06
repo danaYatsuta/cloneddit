@@ -1,3 +1,4 @@
 {
-  "nuxtr.monorepoMode.DirectoryName": "frontend"
+  "nuxtr.monorepoMode.DirectoryName": "frontend",
+  "nuxtr.vueFiles.firstTag": "script"
 }
