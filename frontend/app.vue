@@ -1,5 +1,10 @@
+<script lang="ts" setup>
+const isLoggedIn = false
+const layout = isLoggedIn ? 'auth' : 'guest'
+</script>
+
 <template>
-  <div>
+  <NuxtLayout :name="layout">
     <NuxtPage />
-  </div>
+  </NuxtLayout>
 </template>
